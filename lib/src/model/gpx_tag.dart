@@ -3,6 +3,9 @@ class GpxTagV11 {
   static const gpx = 'gpx';
   static const version = 'version';
   static const creator = 'creator';
+  static const xmlnsXsi = 'xmlns:xsi';
+  static const xsiSchemaLocation = 'xsi:schemaLocation';
+  static const xmlns = 'xmlns';
   static const metadata = 'metadata';
   static const wayPoint = 'wpt';
   static const route = 'rte';

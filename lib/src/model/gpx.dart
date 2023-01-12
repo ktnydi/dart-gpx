@@ -18,6 +18,13 @@ class Gpx {
   /// to validate.
   String creator = '';
 
+  String xmlnsXsi = 'http://www.w3.org/2001/XMLSchema-instance';
+
+  String xsiSchemaLocation =
+      'http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd';
+
+  String xmlns = 'http://www.topografix.com/GPX/1/1';
+
   /// Metadata about the file.
   Metadata? metadata;
 
